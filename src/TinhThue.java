@@ -11,8 +11,8 @@ public class TinhThue {
         double Tyle = scanner.nextInt();
 
 // Công thức tính: Tiền thuế VAT = Giá sản phẩm * (Tỷ lệ VAT / 100)
-        double TiềnVAT = Gia * (Tyle/100);
-        System.out.print("Vui lòng nhập tỷ lệ VAT:" + TiềnVAT);
+        double costVat = Gia * (Tyle/100);
+        System.out.print("Vui lòng nhập tỷ lệ VAT:" + costVat);
 
     }
 }
